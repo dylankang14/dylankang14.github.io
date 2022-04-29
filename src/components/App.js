@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
           <Container>
             <Navbar.Brand href="/" className='bold'>Movie World</Navbar.Brand>

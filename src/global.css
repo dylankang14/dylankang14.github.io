@@ -1,0 +1,119 @@
+html, body { height: 100%;}
+body {
+  background: linear-gradient(85deg, rgba(6,57,126,1) 0%, rgba(101,6,78,1) 100%);
+}
+#root { height: 100%;}
+#root > .App { height: 100%;}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {color: #000;}
+.btn-outline-light a {color: #fff;}
+.btn-outline-light:hover a {color: #000;}
+.txt-14 {font-size: 14px;}
+.txt-16 {font-size: 16px;}
+.txt-18 {font-size: 18px;}
+.txt-20 {font-size: 20px;}
+.txt-22 {font-size: 22px;}
+.txt-24 {font-size: 24px;}
+.txt-26 {font-size: 26px;}
+.txt-28 {font-size: 28px;}
+.fw-500 { font-weight: 500;}
+.bold { font-weight: 600;}
+.navbar {
+  color: #fff;
+  background: rgba(0,0,0,0.7) !important;
+}
+.titleMovie {
+  padding: 1rem 0;
+}
+.bgCarousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+.carousel-item {
+  color: #fff;
+}
+.active {
+  font-weight: 600;
+}
+.likeLink {
+  cursor: pointer;
+}
+.card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  border: none;
+}
+.boxShadow {
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+}
+.card:hover {
+  transform: scale(1.04);
+  z-index: 10;
+}
+.card-body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.card-title {font-weight: 600;}
+.bookMark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.8);
+}
+.inDetail { position: relative; display: inline-block;}
+.inDetail .bookMark {
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+}
+.detail {
+  color: #fff;
+  display: flex;
+  height: 100%;
+}
+
+.bgImage {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.detail > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
